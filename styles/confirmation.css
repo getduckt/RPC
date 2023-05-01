@@ -1,0 +1,32 @@
+#confirmation {
+    position: absolute;
+    margin-top: 35rem;
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Pathway Extreme';
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 3rem;
+    width: 15rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+  
+  #win {
+    color: green;
+  }
+  #loss {
+    color: red;
+  }
+  #tie {
+    color: orange;
+  }
+
+  #win,
+  #loss,
+  #tie {
+    opacity: 0;
+    transition: all 0.5s;
+  }
